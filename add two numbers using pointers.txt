@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+	int a=10, b=20;
+	int *p, *q,n;
+	p=(int *)malloc(n*sizeof(int));
+	p=&a;
+	q=&b;
+	int sum=sum+*p;
+	printf("%d",*p+*q);
+}
